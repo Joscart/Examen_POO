@@ -26,7 +26,7 @@ string Linea::toString()
 
 float Linea::getM()
 {
-    m = (p2->getY() - p1->getY())/(p2->getX() - p1->getX());
+    this->m = (p2->getY() - p1->getY())/(p2->getX() - p1->getX());
     return m;
 }
 
