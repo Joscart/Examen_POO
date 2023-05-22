@@ -1,3 +1,8 @@
+/*
+Autor: Guallasamion Jose
+Correo: jguallasaminc@est.ups.edu.ec
+fecha: 22/05/2023
+*/
 #include <iostream>
 #include "linea.h"
 #include "punto.h"
