@@ -23,6 +23,7 @@ public:
     Punto *getP1() const;
     Punto *getP2() const;
     string toString();
+    float getM();
 };
 
 #endif // LINEA_H
