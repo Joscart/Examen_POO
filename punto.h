@@ -1,6 +1,9 @@
 #ifndef PUNTO_H
 #define PUNTO_H
 
+#include <string>
+
+using namespace std;
 
 class Punto
 {
@@ -12,6 +15,7 @@ public:
     Punto(int x, int y);
     int getX() const;
     int getY() const;
+    string toString();
 };
 
 #endif // PUNTO_H
